@@ -2,9 +2,6 @@
 
 <div align="center">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/yourrepo?color=blue)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/yourrepo?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/yourrepo?style=social)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ### 🚀 Smart Campus • Live Monitoring • Intelligent Space Utilization
@@ -60,7 +57,7 @@ Built with scalability and automation in mind, the platform bridges the gap betw
 |------------|---------|
 | HTML5 | Structure |
 | CSS3 | Styling & Responsiveness |
-| JavaScript | Frontend Logic |
+| React JS | Frontend Logic |
 | Python | Backend Development |
 | Django / Flask | Web Framework |
 | MySQL | Database Management |
@@ -82,53 +79,6 @@ Database Management System
 Real-Time Space Data Processing
 ```
 
----
-
-# 📷 Project Preview
-
-> Add screenshots of your dashboard, login page, monitoring panel, and analytics section here.
-
-```md
-/assets/dashboard.png
-/assets/login.png
-/assets/analytics.png
-```
-
----
-
-# ⚙️ Installation & Setup
-
-## 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/real-time-academic-space-monitoring-system.git
-```
-
-## 2️⃣ Navigate to the Project Directory
-
-```bash
-cd real-time-academic-space-monitoring-system
-```
-
-## 3️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## 4️⃣ Run the Server
-
-```bash
-python manage.py runserver
-```
-
-## 5️⃣ Open in Browser
-
-```bash
-http://127.0.0.1:8000/
-```
-
----
 
 # 🎯 Objectives
 
