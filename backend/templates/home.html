@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LiveStudyRoom Backend</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            {% comment %} background: linear-gradient(90deg, #ff4b00, #ff9a3c, #38b6d9, #0b3c66); {% endcomment %}
+             background: linear-gradient(90deg, #ff4b00 0%,#ff9a3c 20%,#8fd3b6 40%,#38b6d9 60%,#0b3c66 80%,#2b0018 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 120px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            opacity: 0.8;
+        }
+
+        .card {
+            margin: 40px auto;
+            padding: 30px;
+            width: 350px;
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+        }
+
+        a {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: rgba(255,255,255,0.25);
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>✐ᝰLiveStudyRoom Backend</h1>
+    <p>Seat Booking System API Dashboard</p>
+
+    <div class="card">
+        <h3>Available APIs</h3>
+
+        <a href="/api/seats/">View Seats</a>
+        <a href="/admin/">Admin Panel</a>
+        <a href="/api/my-bookings/">My Bookings</a>
+    </div>
+
+</div>
+
+</body>
+</html>
